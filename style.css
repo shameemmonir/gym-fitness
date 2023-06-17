@@ -1,0 +1,48 @@
+
+.gym-background{
+    background-color: black;
+}
+.gym-join{
+    display: flex;
+    margin-left: 80px;
+    padding-bottom: 80px;
+}
+.heading{
+    color: red;
+}
+.gym-text{
+    margin-top: 200px;
+}
+.gym-health{
+    color: white;
+    font-size: 60px;
+}
+.para-gym{
+    color: white;
+    font-size: 22px;
+    margin-bottom: 30px;
+}
+#btn-more{
+    background-color: red;
+    color: white;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 2px;
+    text-decoration: none;
+    font-size: 20px;
+}
+.icon-area{
+    display: flex;
+}
+.take-look{
+    text-align: center;
+    font-size: 35px;
+}
+.gym-para{
+    border: 1px solid black;
+}
+#gym-img{
+    align-items: center;
+}
