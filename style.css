@@ -1,4 +1,52 @@
 
+.menu-container{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: black;
+    padding: 5px;
+    color: white;
+}
+.menu-items{
+    display: flex;
+}
+.menu-items li{
+    list-style: none;
+    margin: 5px;
+    padding: 10px;
+}
+.menu-items li:hover{
+    color: blue;
+    cursor: pointer;
+}
+.banner-container{
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+    align-items: center;
+}
+.banner-description{
+    margin-left: 50px;
+}
+.banner-text{
+    color: red;
+    font-size: 24px;
+}
+.title1{
+    font-size: 60px;
+    color: white;
+    font-weight: bold;
+}
+
+
+
+
+
+
+.img-gym{
+    width: 100%;
+    height: 100vh;
+}
 .gym-background{
     background-color: black;
 }
@@ -35,6 +83,8 @@
 }
 .icon-area{
     display: flex;
+    margin-left: 100px;
+    margin-right: 100px;
 }
 .take-look{
     text-align: center;
@@ -42,7 +92,19 @@
 }
 .gym-para{
     border: 1px solid black;
+    text-align: center;
+    margin-right: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
 }
-#gym-img{
-    align-items: center;
+.about-us-area{
+    background-color: black;
+    color: white;
+}
+.experience{
+    display: flex;
+}
+.workout-area{
+    background-image: url(images/shape/Group_33094_1.png);
+    background-position: center;
 }
