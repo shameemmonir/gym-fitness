@@ -81,4 +81,23 @@
 .gym-icon{
     width: 50px;
 }
+.about-container{
+    display: flex;
+}
+.about-left{
+    width: 700px;
+    border: 1px solid rebeccapurple;
+}
+.about-right{
+    width: 700px;
+    border: 1px solid black;
+}
+.workout-image{
+    display: flex;
+}
+.workout-image img{
+    width: 650px;
+    height: 550px;
+    transform: scaleY(-15deg);
+}
 
