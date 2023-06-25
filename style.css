@@ -83,21 +83,30 @@
 }
 .about-container{
     display: flex;
+    background-color: black;
+    color: white;
 }
 .about-left{
     width: 700px;
-    border: 1px solid rebeccapurple;
+    /* border: 1px solid rebeccapurple; */
 }
 .about-right{
     width: 700px;
-    border: 1px solid black;
+    /* border: 1px solid black; */
+}
+.workout-image{
+    display: flex;
 }
 .workout-image{
     display: flex;
 }
 .workout-image img{
-    width: 650px;
+    margin-top: 50px;
+    width: 350px;
     height: 550px;
-    transform: scaleY(-15deg);
+    transform: skewY(-15deg);
 }
-
+.btn-text{
+    text-decoration: none;
+    color: white;
+}
