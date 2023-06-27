@@ -85,6 +85,8 @@
     display: flex;
     background-color: black;
     color: white;
+    padding-bottom: 30px;
+    padding-left: 30px;
 }
 .about-left{
     width: 700px;
@@ -109,4 +111,18 @@
 .btn-text{
     text-decoration: none;
     color: white;
+}
+.workout-container{
+    width: 600px;
+    height: 200px;
+    background-image: url(images/shape/Group_33094_1.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 50px;
 }
